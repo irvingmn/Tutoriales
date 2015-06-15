@@ -1,0 +1,5 @@
+modificar los parametros de la base de datos y la contraseña de administrador:
+mysql_connect('localhost','root','contraseña');
+mysql_select_db(´base de datos');
+
+y las tablas de muestra del buscador adaptarlas a las necesidades del usuario.

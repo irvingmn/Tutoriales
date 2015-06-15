@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function miFunc()
+        {
+           document.getElementById("div1").innerHTML= Math.random(); 
+        }
+        
+        function miFunc1()
+        {
+           document.getElementById("div2").innerHTML= Math.min(23,45,78,12,9,9.1); 
+        }
+        function miFunc2()
+        {
+           document.getElementById("div3").innerHTML= Math.max(23,45,78,12,9,9.1); 
+        }
+        
+         function miFunc3()
+        {
+           document.getElementById("div4").innerHTML= Math.ceil(9.1); 
+        }
+        
+          function miFunc4()
+        {
+           document.getElementById("div5").innerHTML= Math.floor(9.1); 
+        }
+          function miFunc5()
+        {
+           document.getElementById("div6").innerHTML= Math.floor(Math.random() *200); 
+        }
+    </script>
+</head>
+<body>
+  <p> Funciones Math.() </p>
+  <button onclick="miFunc()">Random</button>
+  <p id="div1"></p>
+  
+  <button onclick="miFunc1()">N° Minimo</button>
+  <p id="div2"></p>
+  
+  <button onclick="miFunc2()">N° Max</button>
+  <p id="div3"></p>
+   
+   <button onclick="miFunc3()">Redondeo ceil</button>
+  <p id="div4"></p>
+   
+    <button onclick="miFunc4()">Redondeo floor</button>
+  <p id="div5"></p>
+  
+  <button onclick="miFunc5()">random floor</button>
+  <p id="div6"></p>
+  
+  
+   
+    
+</body>
+</html>

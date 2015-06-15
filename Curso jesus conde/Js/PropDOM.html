@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script type="text/javascript">
+		function contarLiItems () {
+			var elemento01= document.getElementById("listaTareas");
+			var cuenta= 0;
+			for (var i =0 ; i < elemento01.childNodes.length; i++) {
+				if (elemento01.childNodes[i].nodeType==1) cuenta++;
+			}
+			alert("la lista ordenada contiene "+ cuenta+" items");
+		}
+		window.onload= contarLiItems;
+	</script>
+</head>
+<body>
+	<h1>cosas por hacer</h1>
+	<ol id="listaTareas">
+		<li>Terminar el guia</li>
+		<li>grabar los graficos</li>
+		<li>Grabar primera parte</li>
+		<li>Terminar el guin</li>
+		<li>grabar los graficos</li>
+		<li>Grabar primera parte</li>
+	</ol>
+	<p id="notasLista"> Fuck you bitches </p>
+	
+</body>
+</html>

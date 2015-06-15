@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function domestico()
+        {
+            this.animal=" ";
+            this.nombre =" ";
+            this.confAnimal= function(nuevoAnimal)
+            {
+                this.animal=nuevoAnimal;
+            }
+            this.confNombre= function(nuevoNombre)
+            {
+                this.animal=nuevoNombre;
+            }
+        }
+            var miGato= new domestico();
+            miGato.confAnimal="gato";
+            miGato.confNombre="Asrrael";
+        
+            perro.prototype= new domestico();
+            function perro()
+            {
+                this.raza=" ";
+                this.confRaza= function(nuevaRaza)
+                {
+                    this.raza=nuevaRaza;
+                }
+                this.mostrarInfo= function()
+                {
+                    alert(this.nombre+" es un "+this.raza);
+                }
+            }
+             var miPerro= new perro();
+            miPerro.confNombre("spanki");
+            miPerro.confRaza("pastor aleman");
+        
+    </script>
+</head>
+<body>
+   <input type="button" value="mascotas" onclick="miPerro.mostrarInfo()">
+    
+</body>
+</html>

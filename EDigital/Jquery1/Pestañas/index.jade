@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+html(lang="es")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+		
+		link(rel="stylesheet" href="estilos.css")
+		title jquery Tabs
+	body
+		h1 Navegacion por tabs en Jquery
+		.tabs_links
+			- for (var i=0; i<5; i++)
+				a(href="#section-#{i+1}") Titulo #{i+1}
+		.tabs_contents
+			- for (var i=0; i<5; i++)
+				section(id="section-#{i+1}")
+					.tabs_contents_item
+						p Contenido #{i+1}
+						p  Lorem ipsu dolor sit amet, consectetur adipisicing elit. Ipsum quasi similique impedit accusantium excepturi sapiente perferendis quidem consequuntur ipsa assumenda! Dolores voluptas asperiores obcaecati eos hic, sint suscipit nesciunt magnam.
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ad ducimus similique porro repellendus earum culpa? Doloribus repudiandae accusamus labore, sed assumenda. Voluptatum atque laboriosam dolorum suscipit libero facilis sint.
+		
+	script(type="application/javascript", src="script.js")
+
+
+
+
+
+
+
+

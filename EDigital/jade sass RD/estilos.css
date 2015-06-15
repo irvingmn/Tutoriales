@@ -1,0 +1,383 @@
+/* line 4, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+p {
+  background: #A11B53;
+  margin: 6em; }
+
+/*ejemplo mixin*/
+/* line 14, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+.mixin {
+  border: 2px solid yellow;
+  border-radius: 13px; }
+
+/* ejemplo media querys*/
+/* line 19, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+div {
+  width: 100%; }
+  @media screen and (min-width: 1025px) {
+    div {
+      width: 75%;
+      margin: 0px auto; } }
+
+/* line 28, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+div {
+  width: 30%;
+  float: left;
+  height: 150px;
+  margin: 1.66%;
+  background: #A11B53; }
+
+/* line 35, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+.darknes {
+  background: #75143c; }
+
+/* line 39, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+.lighten {
+  background: #f5c6da; }
+
+/* line 43, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+.saturation {
+  background: #d0004b; }
+
+/* line 46, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+.desaturate {
+  background: #8e2e56; }
+
+/* line 50, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+.rgba {
+  background: rgba(161, 27, 83, 0.7); }
+
+/* line 54, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+.invert {
+  background: #5ee4ac; }
+
+/* line 58, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+.complement {
+  background: #1ba169; }
+
+@media all and (min-width: 480px) {
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-5 {
+    width: 5; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-10 {
+    width: 10; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-15 {
+    width: 15; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-20 {
+    width: 20; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-25 {
+    width: 25; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-30 {
+    width: 30; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-35 {
+    width: 35; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-40 {
+    width: 40; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-45 {
+    width: 45; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-50 {
+    width: 50; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-55 {
+    width: 55; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-60 {
+    width: 60; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-65 {
+    width: 65; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-70 {
+    width: 70; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-75 {
+    width: 75; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-80 {
+    width: 80; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-85 {
+    width: 85; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-90 {
+    width: 90; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-95 {
+    width: 95; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .movil-100 {
+    width: 100; }
+ }
+
+@media all and (min-width: 786px) {
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-5 {
+    width: 5; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-10 {
+    width: 10; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-15 {
+    width: 15; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-20 {
+    width: 20; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-25 {
+    width: 25; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-30 {
+    width: 30; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-35 {
+    width: 35; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-40 {
+    width: 40; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-45 {
+    width: 45; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-50 {
+    width: 50; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-55 {
+    width: 55; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-60 {
+    width: 60; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-65 {
+    width: 65; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-70 {
+    width: 70; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-75 {
+    width: 75; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-80 {
+    width: 80; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-85 {
+    width: 85; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-90 {
+    width: 90; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-95 {
+    width: 95; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .tablet-100 {
+    width: 100; }
+ }
+
+@media all and (min-width: 1025px) {
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-5 {
+    width: 5; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-10 {
+    width: 10; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-15 {
+    width: 15; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-20 {
+    width: 20; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-25 {
+    width: 25; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-30 {
+    width: 30; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-35 {
+    width: 35; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-40 {
+    width: 40; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-45 {
+    width: 45; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-50 {
+    width: 50; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-55 {
+    width: 55; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-60 {
+    width: 60; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-65 {
+    width: 65; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-70 {
+    width: 70; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-75 {
+    width: 75; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-80 {
+    width: 80; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-85 {
+    width: 85; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-90 {
+    width: 90; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-95 {
+    width: 95; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .web-100 {
+    width: 100; }
+ }
+
+@media all and (min-width: 1400px) {
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-5 {
+    width: 5; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-10 {
+    width: 10; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-15 {
+    width: 15; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-20 {
+    width: 20; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-25 {
+    width: 25; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-30 {
+    width: 30; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-35 {
+    width: 35; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-40 {
+    width: 40; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-45 {
+    width: 45; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-50 {
+    width: 50; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-55 {
+    width: 55; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-60 {
+    width: 60; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-65 {
+    width: 65; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-70 {
+    width: 70; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-75 {
+    width: 75; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-80 {
+    width: 80; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-85 {
+    width: 85; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-90 {
+    width: 90; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-95 {
+    width: 95; }
+
+  /* line 71, C:/wamp/www/EDigital/jade sass RD/estilos.scss */
+  .hd-100 {
+    width: 100; }
+ }

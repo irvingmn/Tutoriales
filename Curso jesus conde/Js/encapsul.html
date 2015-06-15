@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function caja(ancho, largo, alto)
+        {
+            function volumen(a,b,c)
+            {
+                return a*b*c;
+            }
+            this.volumenCaja=volumen(ancho,largo, alto);
+        }
+        var contenedor= new caja(7,4,2);
+    </script>
+</head>
+<body>
+   <input type="button" value="volNo" onclick="alert(voluen(7,4,2);"/>
+    <input type="button" value="Caja no en Objeto" onclick="alert(contenedor.volumen(7,4,2))" />
+    <input type="button" value="Es el bueno" onclick="alert('El volumen es = '+ contenedor.volumenCaja);">
+</body>
+</html>

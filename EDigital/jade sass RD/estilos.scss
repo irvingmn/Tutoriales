@@ -1,0 +1,79 @@
+$margen: 2em;
+$color: #A11B53;
+
+p{
+ 	background: $color;
+ 	margin: $margen *3;
+ }
+
+/*ejemplo mixin*/
+@mixin border($bordeAncho, $colorBorde, $radioBorde){
+	border: $bordeAncho solid $colorBorde;
+	border-radius: $radioBorde;
+}
+.mixin{
+	@include border(2px, yellow, 13px);
+}
+
+/* ejemplo media querys*/
+div{
+	width: 100%;
+	@media screen and(min-width: 1025px){
+		width: 75%;
+		margin:0px auto;
+	}
+
+}
+
+div {
+	width: 30%;
+	float: left;
+	height: 150px;
+	margin: 1.66%;
+	background: $color;
+}
+.darknes{
+	background: darken($color, 10%);
+}
+
+.lighten{
+	background: lighten($color, 50%);
+}
+
+.saturation{
+	background: saturate($color, 50%);
+}
+.desaturate{
+	background: desaturate($color, 20%);
+}
+
+.rgba{
+	background: rgba($color, .7);
+}
+
+.invert{
+	background: invert($color);
+}
+
+.complement{
+	background: complement($color);
+}
+
+$sizes: ( movil:480px,
+		 tablet:786px,
+		 web:1025px,
+		 hd: 1400px,	
+		);
+
+@each $size, $screenSize in $sizes{
+	@media all and(min-width:#{$screenSize}){
+		@for $i from 1 through 20{
+	 		.#{$size}-#{$i*5}{
+	 			width: $i*5;
+	 		}
+	 	}
+ 	}
+}
+ 
+
+

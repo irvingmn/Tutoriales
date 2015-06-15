@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function MiTipoObjeto()
+        {
+            this.info ='Nuevo objeto creado bitch!!';
+            this.mostrarInfo = function()
+            {
+                alert(this.info);
+            }
+        
+            this.cambiarInfo= function(nuevaInfo)
+            {
+                this.info = nuevaInfo;
+            }
+        }
+        var mynewObj= new MiTipoObjeto();
+        var mynewObj2= new MiTipoObjeto();
+        
+        //FUNCION BOTONES ABAJO
+        function Persona(nombrePersona)
+        {
+            this.nombre= nombrePersona;
+            this.info= 'El nombre de la persona es: '+ this.nombre;
+            this.mostrarInfo= function()
+            {
+                alert(this.info);
+            }
+
+        }
+        var persona1= new Persona("Irving");
+        var persona2= new Persona("lUIS");
+        Persona.prototype.diHola= function()
+        {
+            alert(this.nombre + " dice hola");
+        }
+    </script>
+</head>
+<body>
+   <input type="button" value="Mostar Info 1" onclick="mynewObj.mostrarInfo()" />
+   <input type="button" value="Mostar Info 2" onclick="mynewObj2.mostrarInfo()" />
+   <input type="button" value="Cambiar info 2" onclick="mynewObj2.cambiarInfo(' segundo objeto creado asshole')" />
+   <p>
+        <input type="button" value="Mostar Info Irv" onclick="persona1.mostrarInfo()" />
+        <input type="button" value="Mostar Info luis" onclick="persona2.mostrarInfo()" />
+        <input type="button" value="Irving say Hello" onclick="persona1.diHola()" />
+        <input type="button" value="luis sya hello" onclick="persona2.diHola()" />
+
+   </p>
+    
+</body>
+</html>

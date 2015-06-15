@@ -1,0 +1,13 @@
+
+.navbar{
+	margin-bottom: 0;
+}
+.jumbotron{
+	background: #450934;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.jumbotron .size-title{
+	font-size: 4em;
+}

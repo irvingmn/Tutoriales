@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+      <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<title></title>
+
+</head>
+<body>
+    <div class="container">
+     <br>
+      <form action="" class="">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input  class="form-control" type="text" id="nombre" placeholder="Nombre">
+        </div>
+         
+        <div class="form-group">
+            <label for="option">elige una opcion</label>
+            <select class="form-control" id="option">
+                <option value="">Opcion 1</option>
+                <option value="">Opcion 2</option>
+                <option value="">Opcion 3</option>
+                <option value="">Opcion 4</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea class="form-control" id="mensaje" palaceholder="escribe tu nombre"></textarea>
+        </div>
+            <label for="archivo">archivo</label>
+            <input type="file" id="archivo">
+            <p class="help-block">Maximo 50mb</p>
+            <button class="btn-warning">Enviar</button>
+     </form>
+    </div>     
+    <br> <br>
+    <div class="container">
+        <br>
+        <form action="" class="form-inline">
+            <div class="form-group">
+               <label  class="sr-only"for="nombre">nombre:</label>
+               <input  class="form-control" id="nombre" type="text" placeholder="Nombre">     
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <label class="sr-only" for="">correo</label>
+                    <div class="input-group-addon">@</div>
+                    <input class="form-control" id="correo" type="text" placeholder="correo">
+                </div>
+            </div>
+            <div class="checkbox">
+                <label >
+                    <input type="checkbox">Recuerdame
+                </label>
+            </div>
+            <button class="btn btn-danger">Enviar</button> 
+        </form>
+          <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="drop1" data-toggle="dropdown" aria-extended="true">
+                    DROP
+                    <span class="caret"></span>
+                </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                        <li><a href="#">lista #1</a></li>
+                        <li><a href="#">lista #2</a></li>
+                        <li><a href="#">lista #3</a></li>
+                        <li><a href="#">lista #4</a></li>
+                    </ul>
+                
+            </div>
+    </div>          
+</body>
+</html>

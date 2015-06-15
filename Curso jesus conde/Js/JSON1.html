@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        
+        // convierte JS a JSON mediante el stringify
+        /*var jazman= new Object();
+        jazman.altura= 1.90;
+        jazman.peso= 89+"kg";
+        jazman.colorOjos="Cafes";
+        
+        document.write("Las Propiedades de jazzman son :"+ JSON.stringify(jazman));
+        */
+        // convierte de JSON a JS
+        
+        function jsonParse()
+        {
+            var enString= prompt("Escribe el objeto JSON");
+            var salida="";
+            miObjeto= JSON.parse(enString);
+            
+            for(i in miObjeto)
+            {
+                salida+="Propiedad: " +i+ "= " + miObjeto[i]+ '\n';
+            }
+            alert(salida);
+        }
+    </script>
+</head>
+<body onload="jsonParse()">
+    
+</body>
+</html>

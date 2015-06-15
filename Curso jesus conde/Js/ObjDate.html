@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style>
+p {font: 14px normal arial, verdana, helvetica;}
+</style>
+<!-- <script>
+function diaFechaH()
+{
+
+ var salida = "";
+var d = new Date();
+var mes = new Array();
+mes[0]= "Enero";
+mes[1]= "Febrero";
+mes[2]= "Marzo";
+mes[3]= "Abril";
+mes[4]= "Mayo";
+mes[5]= "Junio";
+mes[6]= "Julio";
+mes[7]= "Agosto";
+mes[8]= "Septiembre";
+mes[9]= "Octure";
+mes[10]= "Noviembre";
+mes[11]= "Diciembre";
+ var m = mes[d.getMonth()];
+var ahora= new Date();
+salida += "<br/> Fecha: " + ahora.getDate(); 
+salida += "<br/> Mes: " + m; 
+salida += "<br/> Año: " + ahora.getYear(); 
+salida += "<br/> Horas: " + ahora.getHours(); 
+salida +="<br/> Minutos: "  +ahora.getMinutes(); 
+salida +="<br/> Segundos: " + ahora.getSeconds();
+document.getElementById("div1").innerHTML = salida;
+}
+</script> -->
+<script>
+    var miFecha= new Date();
+    document.write("Creado:" +miFecha.toDateString()+ "  "+miFecha.toTimeString()+"<br>");
+    miFecha.setDate(miFecha.getDate()+2000);
+    document.write("Añadido despues de 2000 dias:" +miFecha.toDateString()+ "  "+miFecha.toTimeString()+"<br>");
+
+</script>
+</head>
+<body>
+<!--     la Fecha y hora son:<br/>
+    <div id="div1"></div>
+    <script>
+               diaFechaH();
+           </script>
+    <input type="button" onclick="location.reload()" value="Recarga hora"/>
+     -->     
+
+</body>
+</html>
